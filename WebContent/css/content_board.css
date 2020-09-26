@@ -1,0 +1,211 @@
+@CHARSET "UTF-8";
+
+
+/* div내의 div 중앙정렬 */
+#wrap{ width: 100%; text-align: center; }
+#content { display: inline-block; margin-top: -15px; }
+
+#button { text-align: right; }
+#table { margin-top: 15px; }
+#comment { margin-top: 20px;}
+#commentWrite { margin-top: -18px;}
+
+/* *** 상단 버튼 ***  */
+.update, .delete, .list, .re {display:inline-block;}
+.update{margin-left: 0px;}
+.delete{margin-left: 3px;}
+.re {margin-left: 3px;}
+.list{margin-left: 3px; margin-right: 8px}
+
+/* **** 상단 버튼 **** */
+
+/* 수정,삭제 버튼  */
+button.btn{
+	width: 65px;
+	height: 33px;
+	border : 2px solid #004040;
+	border-radius: 8px;
+	background-color: rgba( 255, 255, 255, 0.3 );
+	color: #004040;
+	font-size: 17px;
+	font-weight: normal;
+	letter-spacing:2px;
+}
+button.btn:HOVER{
+	border : 2px solid #004040;
+	background-color: #00686a;
+	color: white;
+}
+/* 목록 버튼 */
+button.btn1 {
+	width : 70px;
+	height : 33px;
+	border : 1px solid #004040;
+	border-radius: 8px;
+	background-color: #00686a;
+	
+	color: white;
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing:2px;
+}
+button.btn1:HOVER {
+	border : 2px solid #004040;
+	background-color: white;
+	color: #004040;
+
+}
+
+/* **** 테이블 **** */
+
+table {
+    width: 1200px;
+    /* 선 공간 없애기 */
+    border-collapse: collapse; 
+	/* 가운데 */
+	margin-left: auto;
+	margin-right: auto;
+	/* 배경색 */
+	background-color: rgba(255, 255, 255, 0.6);
+}
+th, tr {
+    border: 1px solid  #cacaca;
+    padding: 10px;
+}
+
+td { padding: 8px; }
+
+th {
+	height: 30px;
+	color: #343434;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing:3px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+td {
+	height: 30px;
+	color: #343434;
+    font-size: 16px;
+    font-weight : lighter;
+    letter-spacing:2px;
+}
+/* 크기  */
+.tn { width: 10%; }
+.tn1 { width: 10%; }
+.tw { width: 10%; }
+.tw1 { width: 20%; }
+.td { width: 10%; }
+.td1 { width: 15%; }
+.tr { width: 8%; }
+.tr1 { width: 7%; }
+
+.tt1, .tc {
+	text-align: left;
+	padding : 0 20px;
+	font-size : 18px;	
+}
+/* 내용 */
+.tc {
+	height: 180px; 
+	padding : 50px;
+	font-weight: lighter;
+	font-size : 19px;
+	line-height: 30px;
+}
+
+
+/* **** 댓글 **** */
+
+.cc { width: 64%; background-color: white;}
+.btn{ width: 14%; background-color: rgba(255, 255, 255, 0.6); }
+
+.cc {
+	text-align: left;
+	padding : 0 0 0 60px;
+	font-size : 18px;	
+	font-weight: lighter;
+	line-height: 40px;
+}
+.cc {
+	width: 87%;
+	background-color: white;
+}
+.ccc {
+	width: 13%;
+	background-color: white;
+}
+
+/* **** 댓글 입력창 **** */
+.tcw { height: 55px;}
+input[type="text"] {
+ 	width: 880px;
+	height: 40px;
+	padding-left: 20px;
+	font-size: 18px;
+	border : 1px solid #c0c0c0; 
+}
+
+td.tcw{ text-align: left; }
+.input {margin-left: 30px;}
+.btn3 {margin-left: 25px;}
+/* **** 댓글 버튼 **** */
+
+/* 댓글 수정,삭제 버튼 */
+#button1 { text-align: right; margin-right: 18px;}
+.update1, .delete1 {display:inline-block;}
+.delete1 {margin-left: 2px;}
+
+/* 댓글 수정,삭제 버튼 크기 */
+button.btn2{
+	width: 55px;
+	height: 20px;
+	border : 2px solid #004040;
+	border-radius: 8px;
+	background-color: rgba( 255, 255, 255, 0.3 );
+	color: #004040;
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing:2px;
+}
+button.btn2:HOVER{
+	border : 2px solid #004040;
+	background-color: #00686a;
+	color: white;
+}
+/* 댓글입력 버튼  */
+button.btn3{
+	width: 80px;
+	height: 35px;
+	border : 2px solid #004040;
+	border-radius: 8px;
+	background-color: #00686a;
+	color: white;
+	font-size: 19px;
+	font-weight: normal;
+	letter-spacing:3px;
+}
+button.btn3:HOVER{
+	border : 2px solid #004040;
+	background-color: white;
+	color: #004040;
+}
+
+
+/* 댓글 삭제버튼 X */
+button.btn4{
+	width: 45px;
+	height: 33px;
+	border : 2px solid #660033;
+	border-radius: 8px;
+	background-color: #800040;
+	color: white;
+	font-size: 18px;
+	font-weight: normal;
+}
+button.btn4:HOVER{
+	border : 2px solid #800040;
+	background-color: rgba( 255, 255, 255, 0.3 );
+	font-size: 19px;
+	color: #800040;
+}

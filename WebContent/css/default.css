@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
+/* margin,padding 초기화 (반드시 상단에 위치해야 함) */
+*{	margin: 0px; padding: 0px;
+ 	font-family: 'Hanna';
+}
+
+/*background 이미지 고정  */
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale'); -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+
+/* 리스트 앞에 모양 제거 */
+ul{list-style: none;}
+
+/* 화면설정 */
+
+body{margin:0; height: 100%; text-align: center;}
+
+
+html {
+ 	background: url("../images/bgimg.png") no-repeat center center fixed;
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+}
+
+div#header{
+	position:absolute;
+  	left:0px;
+	top:0px;  
+	height: 190px;
+	width: 100%;
+	line-height:1.5;
+	background-color: rgba( 255, 255, 255, 0.2 );
+}
+
+div#wrap{
+	position:absolute;
+ 	top:190px;
+	width: 100%;
+	bottom:100px;
+	overflow: auto;
+}
+::-webkit-scrollbar { display: none; }
+
+div#content{
+	padding: 50px;
+}
+
+div#footer{
+ 	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0; 
+	width: 100%;
+	height: 100px;
+	text-align: left;
+	font-size: 15px;
+	font-weight: lighter;
+	line-height:1.5;
+	background-color: rgba( 255, 255, 255, 0.2 );
+}
+
+#text{
+	margin-left: 190px;
+	color: #004040;
+}
+
+/* 밑줄 제거 */
+a{
+	text-decoration: none;
+	color:#2b2e40;
+	font-weight: 600;
+	letter-spacing:3px;
+}

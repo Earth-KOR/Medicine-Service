@@ -1,0 +1,91 @@
+@CHARSET "UTF-8";
+
+/* "약복용"색 변화 */
+.yak {
+	color : #005151;
+	font-size : 20px;
+	letter-spacing : 2px;
+}
+/* "로그인 후~" */
+h4 {
+	color: #343434; 
+	font-weight: normal;
+	font-size : 20px;
+	letter-spacing : 2px;	
+}
+/* div내의 div 중앙정렬 */
+#wrap{
+	width: 100%;
+	text-align: center;
+}
+#content{
+	display: inline-block;
+	margin-top: 85px;
+}
+
+/* input 영역 */
+input[type="text"],[type="password"] {
+	width: 400px;
+	height: 60px;
+	padding: 10px 20px;
+	margin: 5px 0;
+	box-sizing: border-box;
+	border: solid 2px #004040;
+	border-radius: 8px;
+	font-size: 16px;
+	letter-spacing : 2px;
+	color:  #343434; 
+}
+/* placeholder 클릭시 감추기 */
+/* input:focus::-webkit-input-placeholder {color:transparent; }*/
+
+/* button 로그인,다시입력 영역 */
+input[type="submit"] {
+	width: 267px;
+	height: 45px;
+	margin-top : -5px;
+	background-color : #00686a;
+	
+	box-sizing: border-box;
+ 	border: solid 2px #003c3c;
+	border-radius: 8px;
+	
+	font-size: 20px;
+	letter-spacing : 3px;
+	color:  white; 
+}
+input[type="submit"]:hover {
+	color: #005151; 
+	background-color:  white; 
+}
+
+input[type="reset"] {
+	width: 125px;
+	height: 45px;
+	margin-top : -5px;
+	background-color: rgba( 255, 255, 255, 0.9 );
+	
+	box-sizing: border-box;
+ 	border: solid 2px #004040;
+	border-radius: 8px;
+	
+	font-size: 19px;
+	letter-spacing : 3px;
+	color: #004040; 
+}
+input[type="reset"]:hover {
+	border: solid 2px #004040;
+	background-color: #00686a;
+	color:  white;  
+}
+
+/* 아이디, 비밀번호 찾기 , 회원가입 */
+div.help a {
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing : 2px;
+	color: #343434;
+}
+div.help a:hover{
+	color: #730073; 
+}

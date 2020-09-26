@@ -1,0 +1,118 @@
+@CHARSET "UTF-8";
+
+/* 공간 설정 */
+#wrap{
+	width: 100%;
+	text-align: center;
+}
+#content{
+	display: inline-block;
+	margin-top: 50px;
+}
+
+/*비밀번호 변경  */
+h2 {
+	color: #00686a;
+	font-weight: normal;
+	font-size: 25px;
+	letter-spacing : 2px;
+}
+
+/* 글: 현재 비밀번호, 새 비밀번호, 비밀번호 확인 */
+label.t2,.t3,.t4 {
+	color: #343434;
+	font-size: 18px;
+	font-weight: normal; 
+	letter-spacing : 1px;
+}
+label.t2{margin-right: 250px;}/* 현재 비밀번호 */
+label.t3{margin-right: 265px;}/* 새 비밀번호 */
+label.t4{margin-right: 230px;}/* 새 비밀번호 확인 */
+
+/* input 영역 */
+input[type="password"]{
+	width: 350px;
+	height: 50px;
+	padding: 10px 20px;
+	margin: 5px 0 10px 0;
+	box-sizing: border-box;
+	border: solid 2px #004040;
+	border-radius: 8px;
+	font-size: 16px;
+	letter-spacing : 2px;
+	color:  #282828; 
+}
+
+/* 값 나올 곳 */
+#find {
+	color: #730073;
+	font-size : 18px;
+	letter-spacing : 1px;
+	text-align: left;
+}
+
+/* 버튼 : 확인  */
+button.btn {
+	width: 350px;
+	height: 38px;
+	margin-bottom : 10px;
+	margin-top : -5px;
+	background-color : #00686a;
+	
+	box-sizing: border-box;
+ 	border: solid 2px #004040;
+	border-radius: 8px;
+	
+	font-size: 19px;
+	letter-spacing : 3px;
+	color:  white; 
+}
+button.btn:hover {
+	border: solid 2px #004040;
+	background-color: white;
+	color:  #004040;  
+}
+
+/* 버튼 : 변경  */
+.btn1 {
+	width: 232px;
+	height: 38px;
+	margin-bottom : 10px;
+	margin-top : -5px;
+	background-color : #00686a;
+	
+	box-sizing: border-box;
+ 	border: solid 2px #004040;
+	border-radius: 8px;
+	
+	font-size: 19px;
+	letter-spacing : 3px;
+	color:  white; 
+}
+.btn1:hover {
+	border: solid 2px #004040;
+	background-color: white;
+	color: #004040;  
+}
+
+/* 버튼 : 취소  */
+.btn2 {
+	width: 112px;
+	height: 38px;
+	margin-bottom : 10px;
+	margin-top : -5px;
+	background-color: rgba( 255, 255, 255, 0.9 );
+	
+	box-sizing: border-box;
+ 	border: solid 2px #004040;
+	border-radius: 8px;
+	
+	font-size: 19px;
+	letter-spacing : 3px;
+	color: #004040; 
+}
+.btn2:hover {
+	border: solid 2px #004040;
+	background-color: #00686a;
+	color: white;  
+}

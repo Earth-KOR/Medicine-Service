@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+
+
+h3 {color: #004040; font-weight: normal; letter-spacing : 1px;}
+
+table {
+    width: 1500px;
+    border-collapse: collapse; 
+	/* 가운데 */
+	margin-left: auto;
+	margin-right: auto;
+	/* 배경색 */
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+th, tr, td {
+    border: 1px solid  #838383;
+    padding: 10px;
+}
+
+th {
+	height: 25px;
+	color: #343434;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing:3px;
+    background-color: white;
+}
+td {
+	height: 50px;
+	color: #343434;
+    font-size: 16px;
+    font-weight : lighter;
+    letter-spacing:2px;
+}
+
+/* 크기  */
+.id { width: 6% }
+.seq { width: 10%; }
+.name { width: 18%; }
+.num { width: 8%; }
+.material { width: 11%; }
+.valid { width: 12%; }
+.side_effect { width: 19%; }
+.cycle { width: 5%; }
+.date { width: 6%; }

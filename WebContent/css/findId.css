@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+
+/* 공간 설정 */
+#wrap{
+	width: 100%;
+	text-align: center;
+}
+#content{
+	display: inline-block;
+	margin-top: 80px;
+}
+
+/* 아이디 찾기 */
+h2 {
+	color: #00686a;
+	font-weight: normal;
+	font-size: 30px;
+	letter-spacing : 2px;
+}
+/* 설명 */
+label.t1 {
+	color: #343434;
+	font-size: 15px;
+	font-weight: normal; 
+	letter-spacing : 1.5px;
+	margin-bottom: 5px;
+}
+
+/* 글: 이름,이메일 */
+label.t2,.t3 {
+	color: #343434;
+	font-size: 18px;
+	font-weight: normal; 
+	letter-spacing : 1px;
+}
+label.t2{margin-right: 295px;}/* 이름 */
+label.t3{margin-right: 250px;}/* 이메일 */
+
+/* input 영역 */
+input[type="text"],[type="password"]{
+	width: 350px;
+	height: 50px;
+	padding: 10px 20px;
+	margin: 5px 0 10px 0;
+	box-sizing: border-box;
+	border: solid 2px #004040;
+	border-radius: 8px;
+	font-size: 16px;
+	letter-spacing : 2px;
+	color:  #282828; 
+}
+
+/* 값 나올 곳 */
+#find {
+	color: #730073;
+	font-size : 18px;
+	letter-spacing : 1px;
+	text-align: left;
+}
+
+/* 버튼 : 가입하기  */
+button.btn1 {
+	width: 198px;
+	height: 45px;
+	margin-top : 20px;
+	background-color: #00686a;
+	
+	box-sizing: border-box;
+ 	border: solid 2px #004040;
+	border-radius: 8px;
+	
+	font-size: 19px;
+	letter-spacing : 2px;
+	color: white; 
+}
+button.btn1:hover {
+	border: solid 2px #004040;
+	background-color: rgba( 255, 255, 255, 0.9 );
+	color: #004040;  
+}
+
+
+/* 버튼 :로그인페이지 이동  */
+button.btn {
+	width: 140px;
+	height: 45px;
+	margin-top : 20px;
+	background-color: rgba( 255, 255, 255, 0.9 );
+	
+	box-sizing: border-box;
+ 	border: solid 2px #004040;
+	border-radius: 8px;
+	
+	font-size: 19px;
+	letter-spacing : 2px;
+	color:  #004040; 
+}
+button.btn:hover {
+	border: solid 2px #004040;
+	background-color: #00686a;
+	color:  white;  
+}

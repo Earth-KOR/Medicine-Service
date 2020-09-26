@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+/* div내의 div 중앙정렬 */
+#wrap{ width: 100%; text-align: center; }
+#content { display: inline-block; margin-top: 10px; }
+#page{ display: inline-block; margin-top: 30px; }
+
+/* **** 상단 글  **** */
+h2 {
+	color: #005151;
+	font-weight: normal;
+	letter-spacing : 3px;
+	font-size: 29px;
+	text-align: left;
+	
+}
+
+/* **** 테이블 **** */
+
+table {
+    width: 1200px;
+    border-collapse: collapse; 
+	/* 가운데 */
+	margin-left: auto;
+	margin-right: auto;
+	/* 배경색 */
+	background-color: rgba(255, 255, 255, 0.6);
+}
+th, tr, td {
+    border: 1px solid  #838383;
+    padding: 12px;
+}
+th {
+	height: 25px;
+	color: #343434;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing:3px;
+    background-color: white;
+}
+td {
+	height: 35px;
+	color: #343434;
+    font-size: 16px;
+    font-weight :normal;
+    letter-spacing:1px;
+}
+/* 크기  */
+.tn { width: 5% }
+.tt { width: 70%; }
+.tw { width: 10%; }
+.td { width: 20%; }
+
+.tt1 {text-align: left;}
+
+table a {
+	color: #282828;
+	font-weight: normal;
+	font-size: 19px;
+	text-align: left;
+}
+
+
+/* **** 페이지번호 **** */
+
+div #comment span a{
+	color: #282828;
+	font-weight: normal;
+	font-size: 21px;
+	text-align: center;
+	margin-right: 10px;
+}

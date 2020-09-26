@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156522439-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-156522439-3");
+  </script>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+  <title>전국 약국 찾기</title>
+  <link rel="shortcut icon" href="" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="stylesheets/main.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+</head>
+
+<body style="height: 100%;">
+
+
+    
+  
+  <div class="dash">
+    <div style="height: 33px;">
+    	
+    	
+      <img class="dash_back" src="/images/btn_back@3x.png" style="position: absolute;
+    cursor:pointer;
+    display:none;
+    width: 20px;
+    top: 7px;
+    left: 15px;" />
+      <!-- <span style="font-size: 22px;margin:5px 0 5px 0;cursor:pointer;"
+      class="dada glyphicon glyphicon-chevron-down"></span> -->
+      <img class="dada" src="/images/btn_cancel@3x.png" style="position: absolute;
+      cursor:pointer;
+      width: 17px;
+      top: 7px;
+      right: 15px;" />
+    </div>
+	
+	
+    
+    
+    <div class="dash-item-wrap">
+      <div class="dash-profile" style="font-size:17px;width:100%;font-weight:bolder;padding-bottom: 15px;">
+        <div class="nth"></div>
+        <div id="profile" style="font-size:13px;color:grey;"></div>
+        <div id="tag" style="font-size:14px;color:grey;"></div>
+      </div>
+      <hr />
+    </div>
+  </div>
+  <div class="dashgo">
+    <span style="font-size: 22px;" class="caca glyphicon glyphicon-chevron-up"></span>
+  </div>
+
+  <div class="search">
+   
+    <input type="button" id="to-seoul" value="서울"> &nbsp;&nbsp;
+    <input type="button" id="to-daejeon" value="대전"> &nbsp;&nbsp;
+    <input type="button" id="to-busan" value="부산"> &nbsp;&nbsp;
+    <input type="button" id="to-wonju" value="원주"> &nbsp;&nbsp;
+    <input type="button" id="to-gwangju" value="광주"> &nbsp;&nbsp;
+    <input type="button" id="to-itwill" value="아이티윌">
+
+   
+  </div>
+  <div class="hohow" style="font-size:11px;font-weight:500;">
+    <!-- <div style="font-weight: bolder;">Last-Update : 2020.02.22 21시 기준</div> -->
+    <div>지도 API 지원 : 네이버 클라우드 플랫폼</div>
+    <div>목적지 검색 지원 : 카카오맵</div>
+    
+ 
+    
+    
+  </div>
+  <div class="to">
+    <div class="toto">
+      <span class="corona">전국 약국 찾기</span>
+    </div>
+  </div>
+ 
+
+
+<input type="button" id="to-jeju" value="제주도로!!">
+  <aside class="sidebar">
+    <div style="height: 10%;">
+      <span style="font-size: 20px;top: 14px;position:absolute;left:20px;color:white;font-weight: lighter;"
+        class="slidede glyphicon glyphicon-remove"></span>
+    </div>
+    <div class="sidebar-content">
+      <div class="tititi">
+        <span class="sidebar_corona" style="font-size: 25px;font-weight:bolder">전국 약국 찾기</span><br />
+      </div>
+      <div class="ju" style="word-break: keep-all;">
+        <div>
+        </div>
+      </div>
+
+    </div>
+  </aside>
+  <div class="overlay"></div>
+
+  <div class="nono"></div>
+
+  <div id="map" style="width:100%;height:100%;"></div>
+
+  <script>
+    const mylat = "";
+    const mylng = "";
+    if (mylat && mylng) {
+      $(".nono").css("display", "none");
+      $(".notice").css("display", "none");
+    }
+  </script>
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+    integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"></script>
+
+  <script type="text/javascript"
+    src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=6b2o2w1ll6&submodules=panorama,geocoder">
+
+
+  </script>
+  <script type="text/javascript" src="javascripts/ndata.js"></script>
+  <script type="text/javascript"
+    src="//dapi.kakao.com/v2/maps/sdk.js?appkey=151aa3e247518e09d5a2dd3363fe0513&libraries=services"></script>
+  <script type="text/javascript" src="javascripts/MarkerClustering.js"></script>
+  
+  <script type="text/javascript" src="javascripts/main.js"></script>
+  <script>
+  </script>
+  <script src="//googleknowledge.github.io/qlabel/src/jquery.qlabel.js"></script>
+
+</body>
+
+</html>

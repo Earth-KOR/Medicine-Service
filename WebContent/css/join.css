@@ -1,0 +1,104 @@
+@CHARSET "UTF-8";
+
+/* 공간 설정 */
+#wrap{
+	width: 100%;
+	text-align: center;
+}
+#content{
+	display: inline-block;
+	margin-top: -10px;
+}
+
+form {border:none;}
+fieldset {border:none;}
+
+h2 {color: #005151; font-weight: normal; letter-spacing : 1px;}
+
+/* 필수입력 글 */
+label.t1 {
+	color: #343434;
+	font-size: 15px;
+	font-weight: normal; 
+	letter-spacing : 1px;
+	margin-bottom: 5px;
+}
+/* 입력창 글 */
+label.t2,.t3,.t4,.t5,.t6,.t7,.t8,.t9,.t10,.t11 {
+	color: #343434;
+	font-size: 15px;
+	font-weight: normal; 
+	letter-spacing : 1px;
+}
+label.t2{margin-right: 300px;}/* 이름 */
+label.t3{margin-right: 295px;}/* 아이디 */
+label.t4{margin-right: 280px;}/* 비밀번호 */
+label.t5{margin-right: 250px;}/* 비밀번호 확인 */
+label.t6{margin-right: 280px;}/* 생년월일 */
+label.t7{margin-right: 260px;}/* 핸드폰 번호 */
+label.t8{margin-right: 260px;}/* 이메일 주소 */
+label.t9{margin-right: 270px;}/* 복용 중인 약 */
+label.t10{margin-right: 255px;}/* 부작용 있는 약 */
+label.t11{margin-right: 255px;}/* 통원 병원 이름 */
+
+/* 버튼 : 아이디 중복확인  */
+button.btn {
+	width: 350px;
+	height: 38px;
+	margin-bottom : 10px;
+	margin-top : -5px;
+	background-color : #00686a;
+	
+	box-sizing: border-box;
+ 	border: solid 2px #004040;
+	border-radius: 8px;
+	
+	font-size: 18px;
+	letter-spacing : 3px;
+	color:  white; 
+}
+button.btn:hover {
+	border: solid 2px #004040;
+	background-color: white;
+	color:  #004040;  
+}
+/* input영역 */
+input[type="text"],[type="password"]{
+	width: 350px;
+	height: 50px;
+	padding: 10px 20px;
+	margin: 5px 0 10px 0;
+	box-sizing: border-box;
+	border: solid 2px #004040;
+	border-radius: 8px;
+	font-size: 16px;
+	letter-spacing : 2px;
+	color:  #282828; 
+}
+/* 아이디 중복 아래 글 */
+#check {color: #730073;}
+
+
+/* 버튼 : 가입하기 */
+input[type="button"] {
+	width: 350px;
+	height: 48px;
+	margin-top : -5px;
+	margin-bottom : -10px;
+	background-color : #00686a;
+	
+	box-sizing: border-box;
+ 	border: solid 2px #003333;
+	border-radius: 8px;
+	
+	font-size: 20px;
+	letter-spacing : 4px;
+	color:  white; 
+}
+input[type="button"]:hover {
+	border: solid 2px #004040;
+	background-color: white;
+	
+	font-weight: bold;
+	color:  #004040;  
+}

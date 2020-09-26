@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+
+/* div내의 div 중앙정렬 */
+#wrap{ width: 100%; text-align: center; }
+#content{ display: inline-block; margin-top: 30px; }
+
+h2 {color: #005151; font-weight: normal; letter-spacing : 3px;}
+h4 { color: #797979; font-weight: normal; letter-spacing : 2px;}
+/* 복용시작 버튼 */
+button.start{
+	width: 120px;
+	height: 40px;
+	border : 2px solid #004040;
+	border-radius: 8px;
+	background-color: #00686a;
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing:2px;
+}
+button.start:HOVER{
+	border : 2px solid #005151;
+	background-color: rgba( 255, 255, 255, 0.9 );
+	color: #005151;
+}
+
+/*  */
+div#top{
+	width: 900px;
+	margin-top: 10px;
+}
+
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+/* 상위 탭 */
+ul.tabs li{
+	background-color: #dddddd;
+	color: #222;
+	width : 200px;
+	letter-spacing : 3px;
+	font-size : 18px;
+	display: inline-block;
+	padding: 10px 10px;
+	cursor: pointer;
+}
+
+/* 상위 탭 색상 */
+ul.tabs li.current{
+	background: #00686a;
+	color: white;
+}
+/* 내용 색 */
+span #ITEM_SEQ, #ITEM_NAME, #ENTP_NAME, #MATERIAL_NAME, #VALID_TERM, #EFFECT, #USAGE2, #PRECAUTION {
+	font-size: 18px;
+	letter-spacing:2px;
+}
+
+/* 내용 */
+.tab-content{
+	display: none;
+	background-color: rgba( 255, 255, 255, 0.8 );
+	padding: 60px;
+	height: 150px;
+	width: 780px;
+}
+
+.tab-content.current{
+	display: inherit;
+}
+
+
+::-webkit-scrollbar { display: none; }

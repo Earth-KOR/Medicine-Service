@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+
+
+/* div내의 div 중앙정렬 */
+#wrap{ width: 100%; text-align: center; }
+#content { display: inline-block; margin-top: 5px; }
+
+#button { text-align: right; }
+#table { margin-top: 15px; }
+#comment { margin-top: 20px;}
+#commentWrite { margin-top: -18px;}
+
+/* *** 상단 버튼 ***  */
+.update, .delete, .list, .re {display:inline-block;}
+.update{margin-left: 0px;}
+.delete{margin-left: 3px;}
+.re {margin-left: 3px;}
+.list{margin-left: 3px; margin-right: 8px}
+
+/* **** 상단 버튼 **** */
+/* 수정,삭제 버튼  */
+button.btn{ 
+	width: 65px;
+	height: 33px;
+	border : 2px solid #004040;
+	border-radius: 8px;
+	background-color: rgba( 255, 255, 255, 0.3 );
+	color: #004040;
+	font-size: 17px;
+	font-weight: normal;
+	letter-spacing:2px;
+}
+button.btn:HOVER{
+	border : 2px solid #004040;
+	background-color: #00686a;
+	color: white;
+}
+/* 답글 버튼 -> admin한테만 보임  */
+button.btn2{ 
+	width: 85px;
+	height: 33px;
+	border : 2px solid #004040;
+	border-radius: 8px;
+	background-color: rgba( 255, 255, 255, 0.3 );
+	color: #004040;
+	font-size: 17px;
+	font-weight: normal;
+	letter-spacing:2px;
+}
+button2.btn:HOVER{
+	border : 2px solid #004040;
+	background-color: #00686a;
+	color: white;
+}
+/* 목록 버튼 */
+button.btn1 {
+	width : 70px;
+	height : 33px;
+	border : 1px solid #004040;
+	border-radius: 8px;
+	background-color: #00686a;
+	
+	color: white;
+	font-size: 17px;
+	font-weight: normal;
+	letter-spacing:2px;
+}
+button.btn1:HOVER {
+	border : 2px solid #004040;
+	background-color: white;
+	color: #004040;
+
+}
+
+/* **** 테이블 **** */
+
+table {
+    width: 1200px;
+    /* 선 공간 없애기 */
+    border-collapse: collapse; 
+	/* 가운데 */
+	margin-left: auto;
+	margin-right: auto;
+	/* 배경색 */
+	background-color: rgba(255, 255, 255, 0.6);
+}
+th, tr {
+    border: 1px solid  #cacaca;
+    padding: 10px;
+}
+
+td { padding: 8px; }
+
+th {
+	height: 30px;
+	color: #343434;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing:3px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+td {
+	height: 30px;
+	color: #343434;
+    font-size: 16px;
+    font-weight : lighter;
+    letter-spacing:2px;
+}
+/* 크기  */
+.tn { width: 10%; }
+.tn1 { width: 10%; }
+.tw { width: 10%; }
+.tw1 { width: 20%; }
+.td { width: 10%; }
+.td1 { width: 15%; }
+.tr { width: 8%; }
+.tr1 { width: 7%; }
+
+.tt1, .tc {
+	text-align: left;
+	padding : 0 20px;
+	font-size : 18px;	
+}
+/* 내용 */
+.tc {
+	height: 200px; 
+	padding : 50px;
+	font-weight: lighter;
+	font-size : 19px;
+	line-height: 30px;
+}

@@ -1,0 +1,101 @@
+@CHARSET "UTF-8";
+
+/* 공간 설정 */
+#wrap{
+	width: 100%;
+	text-align: center;
+}
+#content{
+	display: inline-block;
+}
+
+form {border:none;}
+fieldset {border:none;}
+
+h3 {color: #005151; font-weight: normal; letter-spacing : 2px;}
+
+/* 숨기기 */
+tr.hide {display:none}
+
+table {
+    width: 500px;
+    /* border-radius: 8px;  collapase 때문에 적용 안됨 */
+    border-collapse: collapse; /* 테두리 겹치는 줄 한 줄  */
+    /* border-collapse: separate; 테두리 겹치는 줄 띄우기 */
+	/* 가운데 */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	/* 배경색 */
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+tr, td {
+   /*  border: 1px solid  #838383; */
+    padding: 17px;
+}
+.t{/* 왼쪽  */
+	background-color: white; 
+	width: 35%;
+	font-size: 18px;
+	letter-spacing:1px;
+	color: #343434;
+}
+.tt{
+	width: 65%;
+	font-size: 18px;
+	letter-spacing:1px;
+	color: #4b4b4b;
+}
+/* 비밀번호 변경  */
+.pw{
+	color: #808080;
+}
+/* input password 영역 */
+input[type="password"] {
+	width: 200px;
+	height: 30px;
+	box-sizing: border-box;
+	border: solid 2px #004040;
+	border-radius: 8px;
+	/* 내부 */
+	padding: 10px 20px;
+	font-size: 16px;
+	letter-spacing : 2px;
+	color:  #343434;  
+}
+/* input text영역  */
+input[type="text"] {
+	width: 200px;
+	height: 30px;
+	box-sizing: border-box;
+	border: solid 2px #004040;
+	border-radius: 8px;
+	/* 내부 */
+	padding: 10px 20px;
+	font-size: 16px;
+	letter-spacing : 2px;
+	color:  #343434;  
+}
+
+/* button 영역 */
+button {
+	width: 130px;
+	height: 40px;
+	background-color: rgba( 255, 255, 255, 0.9 );
+	/*테두리 */
+	box-sizing: border-box;
+	border: solid 2px #005151;
+	border-radius: 8px;
+	/* 글자 */
+	font-size: 19px;
+	font-weight: normal;
+	letter-spacing : 3px;
+	color: #005151; 
+}
+button:hover {
+	color: white;
+	background-color: #005151; 
+	border: solid 2px #005151;
+}
+

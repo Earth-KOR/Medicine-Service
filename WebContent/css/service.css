@@ -1,0 +1,107 @@
+@CHARSET "UTF-8";
+
+/* div내의 div 중앙정렬 */
+#wrap{ width: 100%; text-align: center; }
+#content { display: inline-block; margin-top: 30px; }
+#page{ display: inline-block; margin-top: 30px; }
+
+/* 상단 h2,글쓰기 버튼 나란히 */
+div .top{ text-align: left; }
+div .h2, .search, .write {display:inline-block;}
+.h2{margin-left: 10px;}
+.write{margin-left: 15px;}
+.search{margin-left: 650px;}
+
+
+/* **** 상단 글  **** */
+h2 {color: #005151; font-weight: normal; letter-spacing : 1px;}
+
+/* **** 검색 **** */
+input[type="text"] {
+	width: 200px;
+	height: 35px;
+	padding: 10px 10px;
+	margin: 5px 0;
+	box-sizing: border-box;
+	border: solid 2px #004040;
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: lighter;
+	letter-spacing : 2px;
+	color:  #343434; 
+}
+/* placeholder 클릭시 감추기 */
+input:focus::-webkit-input-placeholder {color:transparent; }
+
+/* **** 상단 버튼 **** */
+
+/* 글쓰기,검색 */
+button.btn {
+	width : 75px;
+	height : 33px;
+	border : 2px solid #004040;
+	border-radius: 8px;
+	background-color: #00686a;
+	
+	color: white;
+	font-size: 17px;
+	font-weight: normal;
+	letter-spacing:2px;
+}
+button.btn:HOVER {
+	background-color: white;
+	color: #004040;
+	border : 2px solid #004040;
+}
+
+
+
+/* **** 테이블 **** */
+
+table {
+    width: 1200px;
+    border-collapse: collapse; 
+	/* 가운데 */
+	margin-left: auto;
+	margin-right: auto;
+	/* 배경색 */
+	background-color: rgba(255, 255, 255, 0.6);
+}
+th, tr, td {
+    border: 1px solid  #838383;
+    padding: 12px;
+}
+th {
+	height: 25px;
+	color: #343434;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing:3px;
+    background-color: white;
+}
+td {
+	height: 35px;
+	color: #343434;
+    font-size: 18px;
+    font-weight : lighter;
+    letter-spacing:2px;
+}
+/* 크기  */
+.tn { width: 5% }
+.tt { width: 57%; }
+.tw { width: 15%; }
+.td { width: 15%; }
+.tr { width: 8%; }
+
+.tt1 {text-align: left;}
+
+/* 이미지 */
+img {margin-top:7px;}
+/* **** 페이지번호 **** */
+#page a {
+	color: #282828;
+	font-weight: normal;
+	font-size: 15px;
+	letter-spacing:2px;
+}
+

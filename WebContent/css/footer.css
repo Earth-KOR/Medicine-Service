@@ -1,0 +1,69 @@
+@CHARSET "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
+/* margin,padding 초기화 */
+*{
+	margin: 0px; padding: 0px;
+	font-family: 'Hanna';
+}
+
+div#footer p{
+	positon: fixed;
+	margin-left: 70px;
+	padding: 16px;
+	font-size:14px;
+	letter-spacing:1px;
+	color: #343434;
+}
+div#footer span{
+	font-size: 18px;
+}
+div#footer span a{
+	color: #005151;
+	letter-spacing:1px;
+/* 	text-shadow: 0 0 5px #ffffff; */
+	text-decoration: none;
+}
+div#footer span a:HOVER{
+	color:#000e0f;
+}
+
+div .text{
+	float: left;
+}
+div .adminChat{
+	float: left;
+	margin-left: 660px;
+	margin-top: 45px;
+}
+
+/* 글쓰기,검색 */
+button.b{
+	width : 120px;
+	height : 40px;
+	border : 2px solid red;
+	border-radius: 8px;
+	background-color: red;
+}
+button.b:HOVER {
+	background-color: white;
+	border : 2px solid red;
+}
+button a{
+	color: white;
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing:2px;
+}
+button a:HOVER{
+	color: red;
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing:2px;
+}
+div .chat{
+	float: right;
+	margin-right: 80px;
+	margin-top: 10px;
+}
+img { cursor: pointer;}
