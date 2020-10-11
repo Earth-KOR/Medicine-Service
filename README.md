@@ -1,15 +1,14 @@
 # Medicine-Service - 약 복용 알리미
-<p align="center"> Main Page Preview </p>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682260-4bca4a00-0c1f-11eb-800a-84f91a25a2f6.png" width="600px"> </p>
 <br>
 
 ## 주제
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682342-a4014c00-0c1f-11eb-91d7-18b6c80a4f13.png" width="600px"> </p>
-<br><br>
+<br><br><hr>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682353-b54a5880-0c1f-11eb-8e22-72d23b91ccbe.png" width="600px"> </p>
-<br><br>
+<br><br><hr>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682371-d448ea80-0c1f-11eb-9302-b83d753c297a.png" width="600px"> </p>
-<br><br>
+<br><br><hr>
 
 ## 개발환경
 
