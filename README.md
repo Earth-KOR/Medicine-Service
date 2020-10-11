@@ -1,6 +1,6 @@
-# SneakerHead Project / 2020.01 - 2020.02
+# Medicine-Service - 약 복용 알리미
 <p align="center"> Main Page Preview </p>
-<p align="center"> <img src="./Project/Screenshots/mainpage.png" width="600px"> </p>
+<p align="center"> <img src="C:/Users/김동민/Desktop/사진/main.png" width="600px"> </p>
 <br>
 
 ## 주제
