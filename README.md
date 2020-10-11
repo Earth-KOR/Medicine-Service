@@ -1,28 +1,20 @@
 # Medicine-Service - 약 복용 알리미
 <p align="center"> Main Page Preview </p>
-<p align="center"> <img src="C:/Users/김동민/Desktop/사진/main.png" width="600px"> </p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682260-4bca4a00-0c1f-11eb-800a-84f91a25a2f6.png" width="600px"> </p>
 <br>
 
 ## 주제
-* **프리미엄 신발 관련 커뮤니티 웹 서비스**
+<p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682342-a4014c00-0c1f-11eb-91d7-18b6c80a4f13.png" width="600px"> </p>
+<br><br>
+<p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682353-b54a5880-0c1f-11eb-8e22-72d23b91ccbe.png" width="600px"> </p>
+<br><br>
+<p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682371-d448ea80-0c1f-11eb-9302-b83d753c297a.png" width="600px"> </p>
+<br><br>
 
 ## 개발환경
 
-* 개발도구
-  * Eclipse Neon 3 `v4.6.3`
-  * MySQL WorkBench `v8.0.17`
-  <br>
-* 언어
-  * JAVA SE1.8 `JDK 8`
-  * JSP `model 1`
-  * HTML5/CSS3
-  * JavaScript/Jquery
-  <br>
-* 서버(WAS)
-  * Apache Tomcat `v8.5`
-  <br>
-* 커뮤니티
-  * Google Document / Github
+<p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682372-d57a1780-0c1f-11eb-9523-b3c31a51424a.png" width="600px"> </p>
+<br><br>
 
 ## 개요
 
