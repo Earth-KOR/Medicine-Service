@@ -17,6 +17,25 @@
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682372-d57a1780-0c1f-11eb-9523-b3c31a51424a.png" width="600px"> </p>
 <br><br>
 
+* 개발도구
+  * Eclipse
+  * MySQL WorkBench
+  <br>
+* 언어
+  * JAVA SE1.8 `JDK 8`
+  * JSP
+  * HTML5/CSS3
+  * JavaScript
+  <br>
+* FrameWork
+  * Jquery
+  * node.js
+  <br>
+* 서버(WAS) & Cooperation Tool
+  * Apache Tomcat `v8.0`
+  * Github
+  
+
 ## 기능구현 
 * [검색 기능](#검색-기능)
 * [복용 시작](#복용-시작)
