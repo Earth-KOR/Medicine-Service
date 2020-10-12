@@ -10,7 +10,7 @@
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682353-b54a5880-0c1f-11eb-8e22-72d23b91ccbe.png" width="600px"> </p>
 <br><br><hr>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682371-d448ea80-0c1f-11eb-9302-b83d753c297a.png" width="600px"> </p>
-<br><br><hr>
+<br><br><hr><br>
 
 ## 개발환경
 <br>
@@ -38,19 +38,19 @@
 <br><br>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734692-c4ccae80-0cbe-11eb-8866-29d24a3352ad.png" width="600px"> </p>
 <br><br>
-<hr>
+<hr><br>
 
 ### 복용 시작
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734698-c6967200-0cbe-11eb-8860-1502c735bc64.png" width="600px"> </p>
 <br><br>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734722-cbf3bc80-0cbe-11eb-9557-fc9114361a22.png" width="600px"> </p>
 <br><br>
-<hr>
+<hr><br>
 
 ### 복용 기록
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734717-ca29f900-0cbe-11eb-81a3-e14d9739f9bb.png" width="600px"> </p>
 <br><br>
-<hr>
+<hr><br>
 
 ### 복용 그래프
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734719-cb5b2600-0cbe-11eb-9382-84f5afa0208d.png" width="600px"> </p>
@@ -59,7 +59,7 @@
 <br><br> 
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734742-d2823400-0cbe-11eb-9437-dc2633fc547e.png" width="600px"> </p>
 <br><br>
-<hr>
+<hr><br>
 
 ### 약국 찾기 지도
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95738785-c00af900-0cc4-11eb-9c86-5a2b74e67851.png" width="600px"> </p>
@@ -70,7 +70,7 @@
 <br><br>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95738780-be413580-0cc4-11eb-9d40-2c987a2aa8cd.png" width="600px"> </p>
 <br><br>
-<hr>
+<hr><br>
 
 ### 실시간 채팅 
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734757-d615bb00-0cbe-11eb-85e5-083338798c82.png" width="600px"> </p>
