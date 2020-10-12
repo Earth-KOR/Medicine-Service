@@ -32,8 +32,7 @@
 * [실시간 채팅 상담](#실시간-채팅-상담)
 <br><br>
 ### 검색 기능
-<hr>
-<br>
+
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734699-c72f0880-0cbe-11eb-9620-288b8ee81c3f.png" width="600px"> </p>
 <br><br>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734692-c4ccae80-0cbe-11eb-8866-29d24a3352ad.png" width="600px"> </p>
@@ -42,8 +41,7 @@
 <hr><br>
 
 ### 복용 시작
-<hr>
-<br>
+
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734698-c6967200-0cbe-11eb-8860-1502c735bc64.png" width="600px"> </p>
 <br><br>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734722-cbf3bc80-0cbe-11eb-9557-fc9114361a22.png" width="600px"> </p>
@@ -51,15 +49,13 @@
 <hr><br>
 
 ### 복용 기록
-<hr>
-<br>
+
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734717-ca29f900-0cbe-11eb-81a3-e14d9739f9bb.png" width="600px"> </p>
 <br><br>
 <hr><br>
 
 ### 복용 그래프
-<hr>
-<br>
+
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734719-cb5b2600-0cbe-11eb-9382-84f5afa0208d.png" width="600px"> </p>
 <br><br>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734719-cb5b2600-0cbe-11eb-9382-84f5afa0208d.png" width="600px"> </p>
@@ -69,8 +65,7 @@
 <hr><br>
 
 ### 약국 찾기 지도
-<hr>
-<br>
+
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95738785-c00af900-0cc4-11eb-9c86-5a2b74e67851.png" width="600px"> </p>
 <br><br>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95738771-ba151800-0cc4-11eb-8096-8fca86454a9c.png" width="600px"> </p>
@@ -82,8 +77,7 @@
 <hr><br>
 
 ### 실시간 채팅
-<hr>
-<br>
+
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734757-d615bb00-0cbe-11eb-85e5-083338798c82.png" width="600px"> </p>
 <br><br>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734763-d7df7e80-0cbe-11eb-858b-cd1bae9a5081.png" width="600px"> </p>
