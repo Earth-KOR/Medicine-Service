@@ -38,6 +38,7 @@
 <br><br>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734692-c4ccae80-0cbe-11eb-8866-29d24a3352ad.png" width="600px"> </p>
 <br><br>
+<p align="center"> 검색기능 설명할꺼임 ! </p>
 <hr><br>
 
 ### 복용 시작
