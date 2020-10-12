@@ -3,7 +3,7 @@
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682260-4bca4a00-0c1f-11eb-800a-84f91a25a2f6.png" width="600px"> </p>
 <br>
 
-## 주제
+## 프로젝트 주제
 <br>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682342-a4014c00-0c1f-11eb-91d7-18b6c80a4f13.png" width="600px"> </p>
 <br><br><hr>
