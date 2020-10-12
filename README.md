@@ -17,6 +17,12 @@
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682372-d57a1780-0c1f-11eb-9523-b3c31a51424a.png" width="600px"> </p>
 <br><br>
 
+## Database
+<br>
+<p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95739084-39a2e700-0cc5-11eb-9577-6fb907f23a17.png" width="600px"> </p>
+<br><br>
+
+
 ## 기능구현 
 * [검색 기능](#검색-기능)
 * [복용 시작](#복용-시작)
