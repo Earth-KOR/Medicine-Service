@@ -69,7 +69,7 @@
 * 복용이 완료된 약들은 복용 리스트에서 지워지고, History 페이지에 자동으로 이동하여 저장됨.
 <br><br>
 <p align="center">< History ></p>
-<br><br>
+<br>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734717-ca29f900-0cbe-11eb-81a3-e14d9739f9bb.png" width="600px"> </p>
 <br><br>
 <hr><br>
@@ -92,7 +92,8 @@
 <br>
 * 공공데이터에서 약 22000개의 전국 약국정보를 파싱하여 DB에 저장함. <br><br>
 * 해당 약국의 위치를 표시하기 위해서 Marker 기능을 사용하였고, 해당 마커의 정보를 표기하기 위해 InfoWindow 기능을 사용함. <br><br>
-* Marker가 한 곳에 밀집되어 있을 때, 밀집된 Marker의 수를 표시하기 위해서 Clusterer 기능을 구현함.
+* Marker가 한 곳에 밀집되어 있을 때, 밀집된 Marker의 수를 표시하기 위해서 Clusterer 기능을 구현함.<br><br>
+* 광역시 시청을 기준으로 버튼 클릭 시 , 해당 좌표로 바로 이동할 수 있도록 구현함.
 <br><br><br><br>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95738785-c00af900-0cc4-11eb-9c86-5a2b74e67851.png" width="600px"> </p>
 <br><br>
