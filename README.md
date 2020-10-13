@@ -98,8 +98,6 @@
 
 <br><br><br><br>
 
-<p align="center">< 그래프 구현 ></p>
-  
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95844973-8a2d4980-0d84-11eb-9401-8014d9958a8e.gif" width="600px"> </p>
 
 <br><br><br><br> 
