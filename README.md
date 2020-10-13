@@ -33,11 +33,13 @@
 <br><br>
 ### 검색 기능
 <br>
-<p>공공데이터(https://www.data.go.kr/)에서 약 53000개의 약 정보와 100개의 약 부작용 정보를 파싱하여 데이터베이스에 저장함. <br>
-Jquery의 Autocomplete 기능을 이용하여 자동완성 기능을 추가함.</p>
+**공공데이터(https://www.data.go.kr/)에서 약 53000개의 약 정보와 100개의 약 부작용 정보를 파싱하여 데이터베이스에 저장함. <br>
+Jquery의 Autocomplete 기능을 이용하여 자동완성 기능을 추가함.**
+<br>
+<p align="center">**< 검색 시 >**</p>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734699-c72f0880-0cbe-11eb-9620-288b8ee81c3f.png" width="600px"> </p>
 <br><br>
-<p align="center"><검색 완료 시></p>
+<p align="center">**< 검색 완료 시 >**</p>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734692-c4ccae80-0cbe-11eb-8866-29d24a3352ad.png" width="600px"> </p>
 <br><br>
 
