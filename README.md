@@ -89,13 +89,29 @@
 * **입력한 재복용 주기만큼 시간이 지나면 사용자의 휴대전화로 `재복용 알람 문자 메세지를 전송함.`**
 
 <br><br><br><br>
+
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734719-cb5b2600-0cbe-11eb-9382-84f5afa0208d.png" width="600px"> </p>
+
 <br><br>
+
+<p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95845701-7c2bf880-0d85-11eb-8e5b-875c68f72fca.png" width="600px"> </p>
+
+<br><br><br><br>
+
+<p align="center">< 그래프 구현 ></p>
+  
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95844973-8a2d4980-0d84-11eb-9401-8014d9958a8e.gif" width="600px"> </p>
-<br><br> 
+
+<br><br><br><br> 
+
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734742-d2823400-0cbe-11eb-9437-dc2633fc547e.png" width="600px"> </p>
+
 <br><br>
-<hr><br>
+
+<hr>
+
+
+<br>
 
 ### 약국 찾기 지도
 <br>
