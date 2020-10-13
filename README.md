@@ -9,8 +9,8 @@
 <br><br><hr>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682353-b54a5880-0c1f-11eb-8e22-72d23b91ccbe.png" width="600px"> </p>
 <br><br>
-* 아날로그 방식 개선 목적 : 식사시간을 기준으로 정하는 아날로그 방식에서 복용알림 서비스로의 개선 목적.<br>
-* 복용효과 100% 받기 : 약 동력의 기반하여 최적의 재 복용 시간을 알려 줌.<br>
+* 아날로그 방식 개선 목적 : 식사시간을 기준으로 정하는 아날로그 방식에서 복용알림 서비스로의 개선 목적.<br><br>
+* 복용효과 100% 받기 : 약 동력의 기반하여 최적의 재 복용 시간을 알려 줌.<br><br>
 * 체내 약 효능 시기 인지하기 : 체내에 약의 효과가 작용하고 있는 것을 시각적 그래프로 알려 줌.
 <hr><br>
 
@@ -38,10 +38,10 @@
 <br><br>
 ### 검색 기능
 <br>
-* 공공데이터 에서 약 53000개의 약 정보를 파싱하여 DB에 저장함.<br>
-* 공공데이터 에서 약 100개의 약 부작용 정보를 파싱하여 DB에 저장함<br>
+* 공공데이터 에서 약 53000개의 약 정보를 파싱하여 DB에 저장함.<br><br>
+* 공공데이터 에서 약 100개의 약 부작용 정보를 파싱하여 DB에 저장함<br><br>
 * Jquery의 AutoComplete 기능을 이용하여 검색 시 자동완성 기능을 추가함.
-<br>
+<br><br><br>
 <p align="center"><검색 시></p>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734699-c72f0880-0cbe-11eb-9620-288b8ee81c3f.png" width="600px"> </p>
 <br><br>
@@ -53,9 +53,9 @@
 
 ### 복용 시작
 <br>
-* 원하는 약을 선택한 후, 처방받은 복용주기를 입력함.<br>
+* 원하는 약을 선택한 후, 처방받은 복용주기를 입력함.<br><br>
 * 입력한 약의 이름을 정보 테이블 , 부작용 테이블에 접근하여 부합하는 정보를 가져와서 리스트로 나타냄
-<br>
+<br><br><br><br>
 <p align="center"><주기 입력 창></p>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734698-c6967200-0cbe-11eb-8860-1502c735bc64.png" width="600px"> </p>
 <br><br>
@@ -65,7 +65,9 @@
 <hr><br>
 
 ### 복용 기록
-
+<br>
+* 복용이 완료된 약들은 복용 리스트에서 지워지고, history 페이지에 자동으로 이동하여 저장됨.
+<br><br><br><br>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95734717-ca29f900-0cbe-11eb-81a3-e14d9739f9bb.png" width="600px"> </p>
 <br><br>
 <hr><br>
