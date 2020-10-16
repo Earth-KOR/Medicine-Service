@@ -333,7 +333,7 @@
   ```
   
   
-     <br> 
+  <br>
   
   <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/96237136-e3d98200-0fd7-11eb-8318-57ceafa54f92.gif" width="600px"> </p>
   
@@ -362,7 +362,7 @@
            
   ```
   
-     <br> 
+   <br> 
   
   <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/96237280-15524d80-0fd8-11eb-9083-1b3b520caacf.png" width="600px"> </p>
   
@@ -399,14 +399,6 @@
 %>
 
   ```
-  
-    <br> 
-  
-  <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/96236828-7decfa80-0fd7-11eb-8f03-fcb553015e1c.png" width="600px"> </p>
-  
-  <br>
-  
-  <br>
   
  **전체 그래프 jsp파일 코드**
  
@@ -662,9 +654,12 @@ for (var i=<%=I%>; i <= ((<%=XX%>*2)+1+(<%=XX_1%> + <%=X_value%>)-<%=XX_1%>*2) ;
 <br>
 
  <a name="기능구현--전국-약국-지도--1."></a><a name="4.7"></a>
-  - [4.7](#기능구현--검색-기능--1.) 공공데이터에서 약 `22000개`의 전국 약국정보를 파싱하고 XML형식에서 JSON으로 바꾼 뒤, ndate파일에 넣음.
+  - [4.7](#기능구현--검색-기능--1.) 공공데이터에서 약 `22000개`의 전국 약국정보를 파싱하고 `XML`에서 `JSON`으로 바꾼 뒤, ndate.js파일에 넣음.
   
- **공공데이터에서 약국정보 파싱**
+  <br><br>
+  
+  
+ **공공데이터에서 약국정보 파싱코드**
  
  <br>
  
@@ -716,7 +711,7 @@ public class sample {
   ```
   <br>
   
-  **ndata**
+  **ndata.js 파일**
   
   <br>
   
@@ -770,7 +765,7 @@ public class sample {
 
 ```
 
-
+<br>
   
    <a name="기능구현--전국-약국-지도--2."></a><a name="4.8"></a>
   - [4.8](#기능구현--검색-기능--2.) 해당 약국의 위치를 표시하기 위해서` Marker` 기능을 사용하였고, 해당 마커의 정보를 표기하기 위해 `InfoWindow` 기능을 사용함.
