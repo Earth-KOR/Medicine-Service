@@ -3,6 +3,33 @@
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682260-4bca4a00-0c1f-11eb-800a-84f91a25a2f6.png" width="600px"> </p>
 <br><br><br>
 
+**약 먹는 시간을 자주 깜빡하거나, 복용하고 있는 약의 정보 및 효과를 보고 싶은 사람들을 위한 서비스**
+
+## 목차
+
+  1. [프로젝트 주제](#프로젝트-주제)
+  1. [References](#references)
+  1. [Objects](#objects)
+  1. [Arrays](#arrays)
+  1. [Destructuring](#destructuring)
+  1. [Strings](#strings)
+  1. [Functions](#functions)
+  1. [Arrow Functions](#arrow-functions)
+  1. [Classes & Constructors](#classes--constructors)
+
+## 프로젝트 목표
+
+  <a name="">프로젝트-목표--아날로그-방식-개선목적</a><a name="1.1"></a>
+  - [1.1](#프로젝트-목표--아날로그-방식-개선목적) **아날로그 방식 개선 목적 :** 식사시간을 기준으로 정하는 아날로그 방식에서 `복용알림 서비스로의 개선 목적.`
+  
+  <a name="">프로젝트-목표--복용효과-100%받기</a><a name="1.1"></a>
+  - [1.2](#프로젝트-목표--복용효과-100%받기) **복용효과 100%받기 :** 약 동력의 기반하여 `최적의 재 복용 시간`을 알려 줌.
+  
+  <a name="">프로젝트-목표--체내-약효능-시기-인지하기</a><a name="1.1"></a>
+  - [1.3](#프로젝트-목표--체내-약효능-시기-인지하기) **체내 약효능 시기 인지하기 :** 체내에 약의 효과가 작용하고 있는 것을 `시각적 그래프`로 알려 줌.
+
+  
+    
 ## 프로젝트 주제
 <br>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682342-a4014c00-0c1f-11eb-91d7-18b6c80a4f13.png" width="600px"> </p>
