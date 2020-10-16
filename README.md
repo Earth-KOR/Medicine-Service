@@ -8,9 +8,9 @@
 ## 목차
 
   1. [프로젝트 목표](#프로젝트-목표)
-  1. [References](#references)
-  1. [Objects](#objects)
-  1. [Arrays](#arrays)
+  1. [프로젝트 소개](#프로젝트-소개)
+  1. [개발환경](#개발환경)
+  1. [기능구현](#기능구현)
   1. [Destructuring](#destructuring)
   1. [Strings](#strings)
   1. [Functions](#functions)
@@ -27,35 +27,50 @@
   
   <a name="프로젝트-목표--체내-약효능-시기-인지하기"></a><a name="1.3"></a>
   - [1.3](#프로젝트-목표--체내-약효능-시기-인지하기) **체내 약효능 시기 인지하기 :** 체내에 약의 효과가 작용하고 있는 것을 `시각적 그래프`로 알려 줌.
-
   
-    
-## 프로젝트 주제
-<br>
-<p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682342-a4014c00-0c1f-11eb-91d7-18b6c80a4f13.png" width="600px"> </p>
-<br><br><hr>
-<p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682353-b54a5880-0c1f-11eb-8e22-72d23b91ccbe.png" width="600px"> </p>
-<br><br>
+  
+  
+## 프로젝트 소개
 
-* **아날로그 방식 개선 목적 : 식사시간을 기준으로 정하는 아날로그 방식에서 `복용알림 서비스로의 개선 목적.`** <br><br>
-* **복용효과 100% 받기 : 약 동력의 기반하여 `최적의 재 복용 시간`을 알려 줌.** <br><br>
-* **체내 약 효능 시기 인지하기 : 체내에 약의 효과가 작용하고 있는 것을 `시각적 그래프`로 알려 줌.** 
-
-<hr><br>
-
-<p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682371-d448ea80-0c1f-11eb-9302-b83d753c297a.png" width="600px"> </p>
-<br><br><hr><br>
-
+  <a name="프로젝트-소개--약-정보-검색"></a><a name="2.1"></a>
+  - [2.1](#프로젝트-소개--아날로그-방식-개선목적) **약 정보 검색 :** 복용 중인 약의 기본 정보, 효능, 용법, 주의사항, 부작용 안내
+  
+  <a name="프로젝트-소개--약-복용-그레프"></a><a name="2.2"></a>
+  - [2.2](#프로젝트-소개--복용효과-100%받기) **약 복용 그래프 :** 복용 주기에 맞춘 약 효능 그래프
+  
+  <a name="프로젝트-소개--문자-발송"></a><a name="2.3"></a>
+  - [2.3](#프로젝트-소개--체내-약효능-시기-인지하기) **문자 발송 :** 약 복용 주기를 등록하여 복용 시간에 맞춰 문자 메세지 전송
+  
+  <a name="프로젝트-소개--약국-지도-API"></a><a name="2.4"></a>
+  - [2.4](#프로젝트-소개--체내-약효능-시기-인지하기) **약국 지도 API :** 전국 약국위치를 파악 할 수 있는 지도
+  
+  
 ## 개발환경
-<br>
-<p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682372-d57a1780-0c1f-11eb-9523-b3c31a51424a.png" width="600px"> </p>
-<br><br>
 
-## Database
+* 언어
+  * JAVA SE1.8 `JDK 8`
+  * HTML5/CSS3
+  * JavaScript
+  <br>
+* 프레임 워크
+  * Jquery
+  * node.js
+  <br>  
+* 서버(WAS)
+  * Apache Tomcat `v8.0`
+  <br>
+* 개발도구
+  * Eclipse-JEE-Mars-2
+  * MySQL WorkBench 
+  <br>
+* 커뮤니티
+  * Github
+  
+## DATABASE
+
 <br>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95739084-39a2e700-0cc5-11eb-9577-6fb907f23a17.png" width="600px"> </p>
 <br><br>
-
 
 ## 기능구현 
 * [검색 기능](#검색-기능)
@@ -65,12 +80,22 @@
 * [약국 찾기 지도](#약국-찾기-지도)
 * [실시간 채팅 상담](#실시간-채팅-상담)
 <br><br>
+
+
 ### 검색 기능
 <br>
 
-* **공공데이터 에서 약 `53000개`의 약 정보를 파싱하여 DB에 저장함.** <br><br>
-* **공공데이터 에서 약 `100개`의 약 부작용 정보를 파싱하여 DB에 저장함.** <br><br>
-* **Jquery의 AutoComplete 기능을 이용하여 검색 시 `자동완성` 기능을 추가함.**
+  <a name="기능구현--검색-기능--1."></a><a name="4.1"></a>
+  - [4.1](#기능구현--검색-기능--1.) **1.** 공공데이터 에서 약 `53000개`의 약 정보를 파싱하여 DB에 저장함.
+  
+  <a name="기능구현--검색-기능--2"></a><a name="4.2"></a>
+  - [4.2](#기능구현--검색-기능--2) **2.** 공공데이터 에서 약 `100개`의 약 부작용 정보를 파싱하여 DB에 저장함.**
+  
+  <a name="기능구현--검색-기능--3"></a><a name="4.3"></a>
+  - [4.3](#기능구현--검색-기능--3) **3.** Jquery의 AutoComplete 기능을 이용하여 검색 시 `자동완성` 기능을 추가함.
+  
+
+<hr><hr><hr><hr>
 
 <br><br><br>
 <p align="center">< 검색 시 ></p><br>
