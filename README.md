@@ -8,7 +8,7 @@
 ## 목차
 
   1. [프로젝트 목표](#프로젝트-목표)
-  1. [프로젝트 소개](#프로젝트-소개)
+  1. [프로젝트 핵심기능](#프로젝트-핵심기능)
   1. [개발환경](#개발환경)
   1. [기능구현](#기능구현)
   1. [Destructuring](#destructuring)
@@ -30,19 +30,19 @@
   
   
   
-## 프로젝트 소개
+## 프로젝트 핵심기능
 
-  <a name="프로젝트-소개--약-정보-검색"></a><a name="2.1"></a>
-  - [2.1](#프로젝트-소개--아날로그-방식-개선목적) **약 정보 검색 :** 복용 중인 약의 기본 정보, 효능, 용법, 주의사항, 부작용 안내
+  <a name="프로젝트-핵심기능--약-정보-검색"></a><a name="2.1"></a>
+  - [2.1](#프로젝트-핵심기능--약-정보-검색) **약 정보 검색** : 복용 중인 약의 기본 정보, 효능, 용법, 주의사항, 부작용 안내
   
-  <a name="프로젝트-소개--약-복용-그레프"></a><a name="2.2"></a>
-  - [2.2](#프로젝트-소개--복용효과-100%받기) **약 복용 그래프 :** 복용 주기에 맞춘 약 효능 그래프
+  <a name="프로젝트-핵심기능--약-복용-그래프"></a><a name="2.2"></a>
+  - [2.2](#프로젝트-핵심기능--약-복용-그래프) **약 복용 그래프** : 복용 주기에 맞춘 약 효능 그래프
   
-  <a name="프로젝트-소개--문자-발송"></a><a name="2.3"></a>
-  - [2.3](#프로젝트-소개--체내-약효능-시기-인지하기) **문자 발송 :** 약 복용 주기를 등록하여 복용 시간에 맞춰 문자 메세지 전송
+  <a name="프로젝트-핵심기능--문자-발송"></a><a name="2.3"></a>
+  - [2.3](#프로젝트-소개--문자-발송) **문자 발송** : 약 복용 주기를 등록하여 복용 시간에 맞춰 문자 메세지 전송
   
-  <a name="프로젝트-소개--약국-지도-API"></a><a name="2.4"></a>
-  - [2.4](#프로젝트-소개--체내-약효능-시기-인지하기) **약국 지도 API :** 전국 약국위치를 파악 할 수 있는 지도
+  <a name="프로젝트-핵심기능--약국-지도-API"></a><a name="2.4"></a>
+  - [2.4](#프로젝트-소개--약국-지도-API) **약국 지도 API** : 전국 약국위치를 파악 할 수 있는 지도
   
   
 ## 개발환경
@@ -54,7 +54,7 @@
   <br>
 * 프레임 워크
   * Jquery
-  * node.js
+  * node.js `v12.0`
   <br>  
 * 서버(WAS)
   * Apache Tomcat `v8.0`
@@ -86,13 +86,61 @@
 <br>
 
   <a name="기능구현--검색-기능--1."></a><a name="4.1"></a>
-  - [4.1](#기능구현--검색-기능--1.) **1.** 공공데이터 에서 약 `53000개`의 약 정보를 파싱하여 DB에 저장함.
+  - [4.1](#기능구현--검색-기능--1.) 공공데이터 에서 약 `53000개`의 약 정보를 파싱하여 DB에 저장함.
+  
+  <br>
+  
+   ```java
+
+ private static String getTagValue(String tag, Element eElement) {
+       NodeList nlList = eElement.getElementsByTagName(tag).item(0).getChildNodes();
+       Node nValue = (Node) nlList.item(0);
+       if(nValue == null) 
+           return null;
+       return nValue.getNodeValue();
+   }
+
+   public static void main(String[] args) {
+      
+      int page2 = 1;   // 페이지 초기값
+      
+      
+      
+      try{
+         while(true){
+            // parsing할 url 지정(API 키 포함해서)
+            String url = "http://apis.data.go.kr/1470000/MdcinSdefctInfoService/getMdcinSdefctInfoList?serviceKey=mFW3I9zgl4vL6raWIh5QNyRZxIuxHHzVVutLRKteGhUZQnbd%2BYUocob3AsbcP6imSjhZ9FO8TwmdXZFLgVtxpg%3D%3D&numOfRows=1&pageNo="+page2;
+            
+            DocumentBuilderFactory dbFactoty = DocumentBuilderFactory.newInstance();
+            DocumentBuilder dBuilder = dbFactoty.newDocumentBuilder();
+            Document doc = dBuilder.parse(url);
+            
+            // root tag 
+            doc.getDocumentElement().normalize();
+            System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
+            
+            // 파싱할 tag
+            NodeList nList = doc.getElementsByTagName("item");
+            //System.out.println("파싱할 리스트 수 : "+ nList.getLength());
+            
+            for(int temp = 0; temp < nList.getLength(); temp++){
+               Node nNode = nList.item(temp);
+               if(nNode.getNodeType() == Node.ELEMENT_NODE){
+                  
+                  Element eElement = (Element) nNode;
+                  System.out.println("######################");
+                  //System.out.println(eElement.getTextContent())
+                  String a = getTagValue("COL_001", eElement);
+                  String b = getTagValue("COL_002", eElement);
+                  String c = getTagValue("COL_005", eElement);        
+                  String d = getTagValue("COL_006", eElement);
+    ```
   
   <a name="기능구현--검색-기능--2"></a><a name="4.2"></a>
-  - [4.2](#기능구현--검색-기능--2) **2.** 공공데이터 에서 약 `100개`의 약 부작용 정보를 파싱하여 DB에 저장함.**
+  - [4.2](#기능구현--검색-기능--2)  공공데이터 에서 약 `100개`의 약 부작용 정보를 파싱하여 DB에 저장함.
   
   <a name="기능구현--검색-기능--3"></a><a name="4.3"></a>
-  - [4.3](#기능구현--검색-기능--3) **3.** Jquery의 AutoComplete 기능을 이용하여 검색 시 `자동완성` 기능을 추가함.
+  - [4.3](#기능구현--검색-기능--3) Jquery의 AutoComplete 기능을 이용하여 검색 시 `자동완성` 기능을 추가함.
   
 
 <hr><hr><hr><hr>
