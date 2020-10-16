@@ -90,9 +90,8 @@
   
   <br>
   
-   ```java
-
- private static String getTagValue(String tag, Element eElement) {
+  ```java
+  private static String getTagValue(String tag, Element eElement) {
        NodeList nlList = eElement.getElementsByTagName(tag).item(0).getChildNodes();
        Node nValue = (Node) nlList.item(0);
        if(nValue == null) 
@@ -134,7 +133,10 @@
                   String b = getTagValue("COL_002", eElement);
                   String c = getTagValue("COL_005", eElement);        
                   String d = getTagValue("COL_006", eElement);
-    ```
+  
+  ```
+  
+
   
   <a name="기능구현--검색-기능--2"></a><a name="4.2"></a>
   - [4.2](#기능구현--검색-기능--2)  공공데이터 에서 약 `100개`의 약 부작용 정보를 파싱하여 DB에 저장함.
