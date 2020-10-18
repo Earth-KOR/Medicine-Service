@@ -1183,9 +1183,9 @@ itwill = new naver.maps.LatLng(35.158526, 129.062031)
   <div class="template" style="display:none">	
     <form>	
       <!-- 메시지 텍스트 박스 -->	
-      <input type="text" class="message" onkeydown="if(event.keyCode === 13) return false;">	
+      <input type="text" class="message"  onkeydown="if(event.keyCode === 13) return false;">	
       <!-- 전송 버튼 -->	
-      <input value="Send" type="button" class="sendBtn">	
+      <input value="Send" type="button"  class="sendBtn">	
     </form>	
     <br />	
     <!-- 서버와 메시지를 주고 받는 콘솔 텍스트 영역 -->	
