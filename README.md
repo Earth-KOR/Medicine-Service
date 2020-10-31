@@ -49,9 +49,9 @@
 ## 개발환경
 
 * 언어
-  * JAVA SE1.8 `JDK 8`
+  * JAVA `EE`
   * HTML5/CSS3
-  * JavaScript `v1.0`
+  * JavaScript `ES5'
   <br>
 * 프레임 워크
   * Jquery `v3.2.2`
