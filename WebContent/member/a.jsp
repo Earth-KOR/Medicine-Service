@@ -29,8 +29,8 @@ String c = request.getParameter("c");
     System.out.println(phone);
     System.out.println(medicine);
 
-     String api_key = "NCS2AVI8KJN9VEWC";
-    String api_secret = "PA3D1KQCGXAI2NZTQNMLIAIIMW4INQUC";
+     String api_key = "보안상 공개하지 않겠습니다.";
+    String api_secret = "보안상 공개하지 않겠습니다.";
     Message coolsms = new Message(api_key, api_secret);
 
     // 4 params(to, from, type, text) are mandatory. must be filled
