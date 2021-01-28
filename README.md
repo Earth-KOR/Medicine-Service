@@ -3,7 +3,7 @@
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682260-4bca4a00-0c1f-11eb-800a-84f91a25a2f6.png" width="600px"> </p>
 <br><br><br>
 
-**"약 먹는 시간을 자주 깜빡하거나, 복용하고 있는 약의 정보 및 효과를 보고 싶은 사람들을 위한 서비스"**
+**"약 먹는 시간을 자주 깜빡하거나, 복용하고 있는 약의 정 보 및 효과를 보고 싶은 사람들을 위한 서비스"**
 
 <br><br>
 ## 목차
