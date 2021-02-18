@@ -170,7 +170,7 @@
  <img src="https://user-images.githubusercontent.com/62025746/96237865-c2c56100-0fd8-11eb-8102-5ff8c326eacb.png" width="600px"> 
   
    <a name="기능구현--전국-약국-지도--3."></a><a name="4.9"></a>
-  - [4.9](#기능구현--검색-기능--3.) Marker가 한 곳에 밀집되어 있을 때, 밀집된 Marker의 수를 표시하기 위해서 `Clusterer` 기능을 구현함.
+  - [4.9](#기능구현--검색-기능--3.) Marker가 한 곳에 밀집되어 있을 때, 밀집된 Marker의 수 를 표시하기 위해서 `Clusterer` 기능을 구현함.
   
   <br>
  
