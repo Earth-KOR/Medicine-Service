@@ -1,4 +1,4 @@
-# Medicine-Service - 약 복용 알리미
+# Medicine-Service - 약 복용 알리 미
 <br>
 <p align="center"> <img src="https://user-images.githubusercontent.com/62025746/95682260-4bca4a00-0c1f-11eb-800a-84f91a25a2f6.png" width="600px"> </p>
 <br><br><br>
